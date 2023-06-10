@@ -1,0 +1,70 @@
+\documentclass[10pt,a4paper]{resume}
+
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+\author{Hossein Moradi}
+\date{\today}
+\makeatletter
+
+\title{\@author\ Resume}
+\name{\@author}
+\tagline{Senior Fullstack Software Engineer}
+\personalinfo{%
+  \renewcommand{\arraystretch}{0.8}
+  \begin{tabularx}{\textwidth}{@{}XX@{}}
+    \location{Vancouver, BC, Canada} & \phone{(236) ***-****} \\
+    \email{moradidavijani@gmail.com} & \linkedin{linkedin.com/in/moradidavijani} \\
+    \github{github.com/moradidavijani} & \stackoverflow{stackoverflow.com/users/6385259}
+  \end{tabularx}
+}
+
+\pdfinfo{
+  /Owner (\@author)
+  /Author (\@author)
+  /Title (\@title)
+  /Subject (\@tagline)
+  /Language (en-US)
+  /Copyrighted (True)
+  /PublicationType (Resume)
+  /Keywords (Senior Software Engineer, FullStack, Frontend, Javascript, Typescript, React, NextJs, GatsbyJs, HTML, CSS, SASS, CSS in JS, CSS Modules, Atomic CSS, Service Workers, Progressive Web App, PWA, NodeJs, ExpressJs, Redis, MongoDB, PostgreSQL, Rest API, GraphQL, Docker, CI/CD, NGINX, Webpack, Babel, NPM, Yarn, Jest, Cypress, Git, Amazon Web Services, AWS, Stripe, OpenAI, ChatGPT, Algorithms, Systems Design, Scrum, Agile, TDD, Unit tests, Integration tests, Advanced Mathematics, Ph.D. in Applied Mathematics)
+}
+
+
+\begin{document}
+
+  \columnratio{0.70}
+
+  \begin{paracol}{2}
+    \backgroundcolor{c[1](\dimexpr \columnsep / 2, \Gm@tmargin)(\Gm@rmargin, 10000pt)}{primary}
+
+    % Ensure that the first sections on both columns are aligned.
+    \begin{leftcolumn}
+      \makecvheader\bigskip
+    \end{leftcolumn}
+    \begin{rightcolumn}
+      \avatar[rounded]{100pt}{avatar}
+    \end{rightcolumn}
+
+    \begin{leftcolumn*}
+      \import{./sections}{main.tex}
+    \end{leftcolumn*}
+
+    \begin{rightcolumn}
+      \import{./sections}{sidebar.tex}
+      % Top bar
+      \begin{tikzpicture}[remember picture, overlay]
+        \fill[black, opacity=0.3] (current page.north east) rectangle ++(-\dimexpr \columnwidth + \columnsep / 2 + \Gm@lmargin, -0.5cm);
+      \end{tikzpicture}%
+      \signature{%
+        This document is created using \LaTeX \ (%
+          \printinfo{\faGithub}{Source Code}[https://github.com/MoradiDavijani/resume]%
+        )%
+      }
+    \end{rightcolumn}
+
+  \end{paracol}
+
+  \newpage
+  \import{./sections}{tail.tex}
+
+\end{document}
