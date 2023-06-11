@@ -131,15 +131,18 @@
 }%
 }
 
+\input{glyphtounicode}
+\pdfgentounicode=1
+
 \ExplSyntaxOn
 \NewDocumentCommand{\printinfo}{m m o}{%
   \BeginAccSupp{method=escape,ActualText={#1:~#2}}
-  \IfNoValueTF{#3}{%
-    \mbox{\textcolor{body}{\normalfont #1}~\utffriendlydetokenize{#2}}%
-  }{%
-     \mbox{\textcolor{body}{\normalfont #1}~
-     \href{#3}{\utffriendlydetokenize{#2}}}
-  }%
+    \IfNoValueTF{#3}{%
+      \mbox{\textcolor{body}{\normalfont #1}~\utffriendlydetokenize{#2}}%
+    }{%
+       \mbox{\textcolor{body}{\normalfont #1}~
+       \href{#3}{\utffriendlydetokenize{#2}}}
+    }%
   \EndAccSupp{}
 }%
 
