@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1722097553.4663 "/Users/mohammadk/Dev/resume/resume.tex" "resume.pdf" "resume" 1722097556.63968 0
+["pdflatex"] 1722198347.41525 "/Users/mohammadk/Dev/resume/resume.tex" "resume.pdf" "resume" 1722198349.71869 0
   "/Users/mohammadk/Dev/resume/resume.tex" 1722093093.45807 2276 0534589232319a6fa138542be41686d8 ""
   "/Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/fontawesome5brands-regular-400.luc" 1721162625.54349 180115 ae2e14b5235ca8081e3dab1cde2b925f ""
   "/Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/fontawesome5free-solid-900.luc" 1721162625.47444 380940 25bf65a1c7052c5c84eac12c97b187dd ""
@@ -295,13 +295,13 @@
   "fonts/inter/Inter-Regular.ttf" 1721160642.77321 309828 079af0e2936ccb99b391ddc0bbb73dcb ""
   "fonts/rubik/Rubik-Bold.ttf" 1721160642.77644 115968 938990e0eeb2ba0137221f36bd9bbda9 ""
   "fonts/rubik/Rubik-Regular.ttf" 1721160642.7801 115440 326eeb08f7d2f817d9fbb582b2e0d65a ""
-  "pdfa.xmpi" 1722097554.48209 5042 4ce29beb5116595ff4be25ab98b148bd "pdflatex"
-  "resume.aux" 1722097556.13883 248 416dc57a4feb6300fbaafe9a1815c8ef "pdflatex"
-  "resume.cls" 1722093869.68026 6736 d970b3ed81214def64e0d82d70bd5030 ""
-  "resume.out" 1722097555.62631 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "pdfa.xmpi" 1722198348.1981 5042 020c91ea15a8190faaee88358e211387 "pdflatex"
+  "resume.aux" 1722198349.34841 248 1ba29458caa95ff84f37a72902e9fca6 "pdflatex"
+  "resume.cls" 1722196260.64674 6731 76186be9cdcc5a486ca0f40dea451a27 ""
+  "resume.out" 1722198348.97681 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "resume.tex" 1722093093.45807 2276 0534589232319a6fa138542be41686d8 ""
-  "sections/main.tex" 1722093493.88304 4382 615100ed3a835130a3f62dd7aa6cc2e1 ""
-  "sections/sidebar.tex" 1722093922.54793 1304 4db4f7dc493be495fb5d06d7779a9b7c ""
+  "sections/main.tex" 1722198347.16758 4975 32c9ea58d7fe9de4f9b5b679ebfef588 ""
+  "sections/sidebar.tex" 1722196341.59159 1306 d03a570228b72fb59c21f27b938c2420 ""
   "sections/tail.tex" 1722097553.32803 16015 b8b00c475137dbebbbc1c56076870188 ""
   (generated)
   "/Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua"
