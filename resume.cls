@@ -240,8 +240,8 @@
 \newcommand{\cvskill}[2]{%
   \raggedright
   \StrSubstitute{#2}{, }{ $\bullet$ }[\result]%
-  {\large\color{body}{#1\par\smallskip}}
-  {\normalsize\color{accent}\result\par\bigskip}
+  {\normalsize\color{body}{#1\par\smallskip}}
+  {\small\color{accent}\result\par\bigskip}
 }
 
 \AtBeginDocument{%

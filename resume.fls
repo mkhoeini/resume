@@ -314,9 +314,8 @@ INPUT ./sections/main.tex
 INPUT ./sections/main.tex
 INPUT ./sections/sidebar.tex
 INPUT ./sections/sidebar.tex
-INPUT /Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmsans12-regular.luc
-INPUT /Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmsans12-oblique.luc
-INPUT /Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmsans9-oblique.luc
+INPUT /Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmsans8-regular.luc
+INPUT /Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/otl/lmsans8-oblique.luc
 INPUT ./sections/tail.tex
 INPUT ./sections/tail.tex
 INPUT ./resume.aux
@@ -325,4 +324,4 @@ INPUT /Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts
 INPUT /Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/streams/rubikregularttf-1.luc
 INPUT /Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/streams/interregularttf-1.luc
 INPUT /Users/mohammadk/Library/texlive/2024/texmf-var/luatex-cache/generic/fonts/streams/rubikboldttf-1.luc
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
