@@ -5,3 +5,4 @@ pdfa.xmpi
 *.out
 *.synctex.gz
 
+scripts/mdops
