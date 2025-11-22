@@ -6,7 +6,7 @@ Use [https://mdops.dev/]() for running the tasks.
 
 | dependency | version |
 |------------|---------|
-| typst.app  | 0.12.0  |
+| typst.app  | 0.14.0  |
 
 
 ## Tasks
